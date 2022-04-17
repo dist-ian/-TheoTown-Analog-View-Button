@@ -238,7 +238,6 @@ function script:buildCityGUI()
 
         onInit = function(self)
             self:setChildIndex(11)
-            self:setId("virtualAnalogButton00")
         end,
 
         onDraw = function(self, x, y, w, h)
@@ -364,9 +363,10 @@ function script:buildCityGUI()
                 if self.diffX then
                     self.diffX = nil
                     self.diffY = nil
-                    rotation   = nil
                     cameraX    = nil
                     cameraY    = nil
+                    scale      = nil
+                    rotation   = nil
 
                     self:setPosition(0, 0)
                 end
