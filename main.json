@@ -1,21 +1,13 @@
 [
-    {
-        "id"     : "$iconAnalogButton_ian00",
-        "author" : "ian`",
-        "type"   : "animation",
-        "frames" : [
-            {
-                "bmp"   : "analogButton.png",
-                "w"     : 30,
-                "h"     : 30,
-                "count" : 2
-            }
-        ]
-    },
-    {
-        "id"     : "$analogViewButton_ian00",
-        "author" : "ian`",
-        "type"   : "script",
-        "script" : "script.lua"
-    }
+	{
+		"id": "$iconAnalogButton_ian00",
+		"author": "ian`",
+		"type": "animation",
+		"frames": [{ "bmp": "analogButton.png", "w": 30, "h": 30, "count": 2 }]
+	}, {
+		"id": "$analogViewButton_ian00",
+		"author": "ian`",
+		"type": "script",
+		"script": "script.lua"
+	}
 ]
